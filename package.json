@@ -1,0 +1,63 @@
+{
+  "name": "ftdi_labtic",
+  "version": "0.0.1",
+  "description": "FTDI bindings for Node.js # Fork Labtic - Support to FTDIID and Write rom",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "1.1.0"
+  },
+  "gypfile": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node-pre-gyp rebuild"
+  },
+  "repository": {
+    
+  },
+  "keywords": [
+    "ftdi",
+    "usb",
+    "driver",
+    "device",
+	"labtic",
+	"FTDIID",
+	"FTDI ROM"
+  ],
+  "binary": {
+    "module_name": "ftdi",
+    "module_path": "./build/{module_name}/v{version}/{configuration}/{node_abi}-{platform}-{arch}/",
+    "remote_path": "./{module_name}/v{version}/{configuration}/",
+    "package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+    "host": "https://github.com/KABA-CCEAC/node-ftdi#Raupp"
+  },
+  "homepage": "https://github.com/KABA-CCEAC/node-ftdi#Raupp",
+  "bugs": {
+    "url": "https://github.com/KABA-CCEAC/node-ftdi/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://raw.github.com/KABA-CCEAC/node-ftdi/master/licence"
+  },
+  "gitHead": "460b1fa8477efc510f2c8316c2f99cfe082d6ae4",
+  "_id": "ftdi@1.1.0",
+  "_shasum": "456560ad8c4d30530431604dd40413c14537363d",
+  "_from": "ftdi@^1.1.0",
+  "_npmVersion": "1.4.21",
+  "_npmUser": {
+    "name": "adrai",
+    "email": "adriano@raiano.ch"
+  },
+  "maintainers": [
+    {
+      "name": "adrai",
+      "email": "adriano@raiano.ch"
+    }
+  ],
+  "dist": {
+    "shasum": "456560ad8c4d30530431604dd40413c14537363d",
+    "tarball": "http://registry.npmjs.org/ftdi/-/ftdi-1.1.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/ftdi/-/ftdi-1.1.0.tgz",
+  "readme": "ERROR: No README data found!"
+}

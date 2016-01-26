@@ -9,7 +9,7 @@
   "gypfile": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "node-pre-gyp rebuild"
+    "preinstall": "node-pre-gyp rebuild --msvs=2013"
   },
   "repository": {
     

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4E20752A-A1F5-41C5-3AB3-EFDD09EF830C}</ProjectGuid>
+    <ProjectGuid>{724A2E56-7F33-5B24-B7EA-01DB264224B6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ftdi</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -66,7 +66,7 @@
       <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\udesc\.node-gyp\0.10.32\$(Configuration)\node.lib&quot;;C:\projetos\xasanBENEW\node_modules\ftdi\lib\i386\ftd2xx.lib;C:\projetos\xasanBENEW\node_modules\ftdi\lib\i386\FTChipID.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\udesc\.node-gyp\0.10.32\$(Configuration)\node.lib&quot;;C:\projetos\ftdi\lib\i386\ftd2xx.lib;C:\projetos\ftdi\lib\i386\FTChipID.lib</AdditionalDependencies>
       <AdditionalOptions>/ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <AllowIsolation>true</AllowIsolation>
       <DataExecutionPrevention>true</DataExecutionPrevention>
@@ -111,7 +111,7 @@
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\udesc\.node-gyp\0.10.32\$(Configuration)\node.lib&quot;;C:\projetos\xasanBENEW\node_modules\ftdi\lib\i386\ftd2xx.lib;C:\projetos\xasanBENEW\node_modules\ftdi\lib\i386\FTChipID.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\udesc\.node-gyp\0.10.32\$(Configuration)\node.lib&quot;;C:\projetos\ftdi\lib\i386\ftd2xx.lib;C:\projetos\ftdi\lib\i386\FTChipID.lib</AdditionalDependencies>
       <AdditionalOptions>/ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <AllowIsolation>true</AllowIsolation>
       <DataExecutionPrevention>true</DataExecutionPrevention>

@@ -1065,4 +1065,4 @@ extern "C"
   }
 }
 
-NODE_MODULE(ftdi, init)
+NODE_MODULE(ftdi_labtic, init)

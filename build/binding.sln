@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 13.00
 # Visual Studio 2013
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ftdi", "ftdi.vcxproj", "{724A2E56-7F33-5B24-B7EA-01DB264224B6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ftdi_labtic", "ftdi_labtic.vcxproj", "{E167B439-DBA1-AE4D-448D-B90CD094C2DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,10 +8,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{724A2E56-7F33-5B24-B7EA-01DB264224B6}.Debug|Win32.ActiveCfg = Debug|Win32
-		{724A2E56-7F33-5B24-B7EA-01DB264224B6}.Debug|Win32.Build.0 = Debug|Win32
-		{724A2E56-7F33-5B24-B7EA-01DB264224B6}.Release|Win32.ActiveCfg = Release|Win32
-		{724A2E56-7F33-5B24-B7EA-01DB264224B6}.Release|Win32.Build.0 = Release|Win32
+		{E167B439-DBA1-AE4D-448D-B90CD094C2DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E167B439-DBA1-AE4D-448D-B90CD094C2DC}.Debug|Win32.Build.0 = Debug|Win32
+		{E167B439-DBA1-AE4D-448D-B90CD094C2DC}.Release|Win32.ActiveCfg = Release|Win32
+		{E167B439-DBA1-AE4D-448D-B90CD094C2DC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

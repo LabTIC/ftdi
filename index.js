@@ -1,6 +1,6 @@
 var util = require('util'),
     EventEmitter = require('events').EventEmitter,
-    ftdi = require('bindings')('ftdi'),
+    ftdi = require('bindings')('ftdi_labtic'),
     FTDIDriver = ftdi.FtdiDriver,
     FTDIDevice = ftdi.FtdiDevice;
 

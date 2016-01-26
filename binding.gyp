@@ -1,7 +1,7 @@
 {
   'targets': [
     {
-      'target_name': 'ftdi',
+      'target_name': 'ftdi_labtic',
       'sources': 
       [
         'src/ftdi_device.cc',
